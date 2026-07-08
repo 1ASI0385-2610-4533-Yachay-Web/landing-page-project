@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-gradient-blue {
+    background: linear-gradient(180deg, #2A44B3 0%, #17246B 100%);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.flex-center-leccion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.header-retorno-leccion {
+    background-color: white;
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.btn-volver-leccion {
+    color: #475569;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.titulo-leccion-top {
+    color: #1E293B;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cont-central-leccion {
+    max-width: 760px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.tarjeta-video {
+    background-color: #F8FAFC;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.pantalla-video {
+    height: 320px;
+    background-color: #F1F5F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-play-central {
+    background: white;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-play-central img {
+    width: 24px;
+    height: 24px;
+    margin-left: 2px;
+}
+
+.controles-video {
+    background-color: white;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-top: 1px solid #E2E8F0;
+}
+
+.btn-play-barra {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.btn-play-barra img {
+    width: 18px;
+    height: 18px;
+}
+
+.barra-tiempo-fondo {
+    background-color: #F1F5F9;
+    height: 6px;
+    flex: 1;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.barra-tiempo-lleno {
+    background-color: #1E3A8A;
+    height: 100%;
+}
+
+.tiempo-video {
+    color: #64748B;
+    font-size: 13px;
+}
+
+.tarjeta-contenido {
+    background-color: white;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.tarjeta-contenido h2 {
+    color: #1E3A8A;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.descripcion-leccion {
+    color: #475569;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.tarjeta-contenido h3 {
+    color: #1E293B;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.puntos-clave-lista {
+    list-style: none;
+}
+
+.puntos-clave-lista li {
+    color: #64748B;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.btn-practicar {
+    background-color: #1E293B;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 18px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: background-color 0.2s ease;
+}
+
+.btn-practicar:hover {
+    background-color: #0F172A;
+}
+
+.tarjeta-glosario {
+    background-color: white;
+    border-radius: 16px;
+    padding: 35px 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.tarjeta-glosario h2 {
+    color: #1E3A8A;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.lista-glosario {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.item-glosario {
+    border: 1px solid #F1F5F9;
+    border-radius: 12px;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.glosario-textos {
+    display: flex;
+    flex-direction: column;
+}
+
+.palabra-nativa {
+    color: #334155;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pronunciacion-label {
+    color: #94A3B8;
+    font-size: 12px;
+    margin: 2px 0;
+}
+
+.significado-es {
+    color: #64748B;
+    font-size: 14px;
+}
+
+.btn-audio {
+    background: none;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+
+.btn-audio:hover {
+    background-color: #F8FAFC;
+}
+
+.btn-audio img {
+    width: 18px;
+    height: 18px;
+}

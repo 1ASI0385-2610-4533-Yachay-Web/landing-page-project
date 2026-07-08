@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-dashboard {
+    background-color: #F4F6F9;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+.navbar {
+    background-color: #3F51B5;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 6%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.nav-izq {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-logo {
+    width: 32px;
+    height: auto;
+}
+
+.nav-titulos {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.brand-sub {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.nav-der {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-header {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-header:hover {
+    transform: translateY(-1px);
+}
+
+.bg-rojo-ar {
+    background-color: #E64A19;
+    color: white;
+}
+
+.bg-rojo-ar:hover {
+    background-color: #D84315;
+}
+
+.bg-blanco-logros {
+    background-color: white;
+    color: #3F51B5;
+}
+
+.bg-blanco-logros:hover {
+    background-color: #ECEFF1;
+}
+.badge-xp {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.avatar-link {
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+.avatar-link:hover {
+    transform: scale(1.08);
+}
+
+.avatar-circular {
+    width: 36px;
+    height: 36px;
+    background-color: #FFEB3B;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.dashboard-container {
+    max-width: 950px;
+    width: 90%;
+    margin: 30px auto 0 auto;
+}
+
+.tarjeta-bienvenida {
+    background: linear-gradient(135deg, #4A65D4 0%, #3146A3 100%);
+    color: white;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 6px 15px rgba(49, 70, 163, 0.2);
+    margin-bottom: 30px;
+}
+
+.tarjeta-bienvenida h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.tarjeta-bienvenida p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 25px;
+}
+
+.progreso-general-container {
+    width: 100%;
+}
+
+.progreso-textos {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 6px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.barra-progreso-fondo {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.barra-progreso-lleno {
+    background-color: #FFD600;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.titulo-seccion {
+    color: #1A237E;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.ruta-aprendizaje {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nodo-ruta {
+    display: flex;
+    width: 100%;
+}
+
+.linea-tiempo {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.circulo-nodo {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+
+.circulo-nodo.amarillo { background-color: #FFD600; }
+
+.linea-conector {
+    width: 4px;
+    background-color: #E0E0E0;
+    flex: 1;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+
+.tarjeta-leccion {
+    background-color: white;
+    border-radius: 14px;
+    flex: 1;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarjeta-leccion.leccion-activa {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.07);
+}
+
+.leccion-info {
+    flex: 1;
+}
+
+.leccion-info h3 {
+    color: #2C3E50;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tag-nivel {
+    background-color: #FFEA00;
+    color: #5D4037;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.leccion-info p {
+    color: #7F8C8D;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.progreso-leccion {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.lbl-progreso {
+    font-size: 12px;
+    color: #BDC3C7;
+}
+
+.mini-barra-fondo {
+    background-color: #F0F2F5;
+    height: 6px;
+    flex: 0.5;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.mini-barra-lleno {
+    background-color: #FFD600;
+    height: 100%;
+}
+
+.lbl-xp {
+    font-size: 12px;
+    color: #95A5A6;
+    font-weight: 500;
+}
+
+.btn-continuar-leccion {
+    background-color: #FFD600;
+    color: #1A237E;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 214, 0, 0.3);
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-continuar-leccion:hover {
+    background-color: #FFC400;
+    transform: translateY(-1px);
+}
