@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-gradient-blue {
+    background: linear-gradient(180deg, #2A44B3 0%, #17246B 100%);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.flex-center-ar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 60px 0;
+}
+
+.cont-central-ar {
+    max-width: 800px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.header-volver-ar {
+    width: 100%;
+}
+
+.link-volver-ar {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.link-volver-ar:hover {
+    color: white;
+}
+
+.seccion-intro-ar {
+    color: white;
+}
+
+.titulo-principal-ar {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.subtitulo-ar {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+}
+
+.visor-camara-contenedor {
+    background-color: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.bloque-intermedio-ar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.img-icono-ar {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.titulo-caja-ar {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.texto-caja-ar {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.btn-activar-ar {
+    background-color: #FFD600;
+    color: #1A237E;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 32px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 214, 0, 0.3);
+    transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+.btn-activar-ar:hover {
+    background-color: #FFC400;
+    transform: scale(1.02);
+}
+
+.btn-activar-ar:active {
+    transform: scale(0.98);
+}
+
+.tarjeta-instrucciones-ar {
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.encabezado-instrucciones {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+    color: white;
+}
+
+.circulo-info-ar {
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid #FFD600;
+    border-radius: 50%;
+    color: #FFD600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.encabezado-instrucciones h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.lista-pasos-ar {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 14px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+    .visor-camara-contenedor {
+        height: 380px;
+    }
+    
+    .titulo-principal-ar {
+        font-size: 24px;
+    }
+}
