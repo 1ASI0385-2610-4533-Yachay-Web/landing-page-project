@@ -1,0 +1,131 @@
+.HU11{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A237E;
+    height: 70px;
+    width: 100%;
+}
+
+.HU11 .esquina{
+    display: flex;
+    padding: 0;
+    color: white;
+    margin-left: 20px;
+}
+
+.HU11 img{
+    width: auto;
+    max-width: 50px;
+    height: auto;
+    max-height: 50px;
+    margin: 15px 5px 2px;
+}
+
+.HU11 .mini{
+    text-decoration: none;
+    text-align: center;
+}
+
+.HU11 .mini h3{
+    margin-bottom: 2px;
+}
+
+.HU11 .esquina .mini h5{
+    margin-top: 2px;
+}
+
+.HU11 .AR_box{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    background-color: #BF360C;
+    border: black 1px solid;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 15px;
+    width: 80px;
+}
+
+.HU11 .AR_box h3{
+    margin: auto;
+}
+
+.HU11 .AR_box img{
+    margin-top: 2px;
+}
+
+.HU11 .usuario{
+    background-color: white;
+    margin: 10px;
+    border-radius: 50px;
+    height: auto;
+}
+
+.cuerpo_principal img{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+}
+
+footer img{
+    height: auto;
+    width: 10%;
+}
+
+.general-box {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 15px 20px;
+}
+
+.general-box .box {
+    display: flex;
+    margin-top: 5px;
+    background-color: rgba(217, 217, 217, 1);
+    justify-content: space-evenly;
+    width: 250px;
+    border: 0px solid;
+    border-radius: 30px;
+}
+
+.general-box .box img{
+    width: auto;
+    height: 100%;
+    max-height: 70px;
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bloque-grande{
+    background-color: #b6b6b6;
+    margin: 5px;
+    padding: 5px;
+}
+
+.bloque-grande h2{
+    margin: 0;
+}
+
+.bloque-mediano{
+    background-color: #F5F5F5;
+    margin: 2px;
+    padding: 2px 7px;
+}
+
+.bloque-datos{
+    text-align: center;
+    background-color: #b6b6b6;
+    border-radius: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.bloque-datos p{
+    padding: 5px;
+}
