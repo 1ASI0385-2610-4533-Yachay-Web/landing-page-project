@@ -249,3 +249,28 @@
     width: 18px;
     height: 18px;
 }
+
+.btn-pronunciar-hu08 {
+    display: inline-block;
+    background-color: #2A44B3; 
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none; 
+    text-align: center;
+    padding: 14px 28px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+.btn-pronunciar-hu08:hover {
+    background-color: #213593;
+    transform: scale(1.02);
+}
+
+.btn-pronunciar-hu08:active {
+    transform: scale(0.98);
+}

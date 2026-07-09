@@ -1,0 +1,161 @@
+.flex-center-hu20 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.cont-central-hu20 {
+    max-width: 540px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tarjeta-blanca-hu20 {
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.img-trofeo-hu20 {
+    width: 84px;
+    height: 84px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.titulo-principal-hu20 {
+    color: #1A237E;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.subtitulo-esfuerzo-hu20 {
+    color: #C14A14;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.texto-descripcion-hu20 {
+    color: #5C6280;
+    font-size: 14px;
+    margin-bottom: 28px;
+}
+
+.contenedor-metricas-hu20 {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    margin-bottom: 28px;
+}
+
+.caja-estadistica-hu20 {
+    flex: 1;
+    background-color: #F4F5FA;
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icono-estrella-hu20 {
+    color: #FFD600;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.svg-grafico-hu20 {
+    width: 24px;
+    height: 24px;
+    fill: #C14A14;
+    margin-bottom: 4px;
+}
+
+.cifra-hu20 {
+    color: #1A237E;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.etiqueta-hu20 {
+    color: #888D9E;
+    font-size: 12px;
+}
+
+.bloque-botones-hu20 {
+    display: flex;
+    width: 100%;
+    gap: 12px;
+}
+
+.btn-azul-hu20, .btn-amarillo-hu20 {
+    flex: 1;
+    padding: 14px 0;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-azul-hu20 {
+    background-color: #1A237E;
+    color: #FFFFFF;
+}
+
+.btn-amarillo-hu20 {
+    background-color: #FFD600;
+    color: #1A237E;
+}
+
+.tarjeta-siguiente-hu20 {
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 14px;
+    padding: 20px 24px;
+    color: #FFFFFF;
+}
+
+.titulo-siguiente-hu20 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.lista-siguiente-hu20 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.lista-siguiente-hu20 li {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.75);
+    position: relative;
+    padding-left: 14px;
+}
+
+.lista-siguiente-hu20 li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 480px) {
+    .titulo-principal-hu20 { font-size: 28px; }
+    .contenedor-metricas-hu20 { flex-direction: column; }
+    .bloque-botones-hu20 { flex-direction: column; }
+}
